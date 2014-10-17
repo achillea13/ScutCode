@@ -1,0 +1,34 @@
+Time:2014/7/10 18:23:08-Compile assembly:DynamicScripts.CsScript error:
+File:d:\workspace\LDServer\scut_server_code\Server\Server\Script\CsScript\MainClass.cs, Line:31
+Message:未能找到类型或命名空间名称“Ltm”(是否缺少 using 指令或程序集引用?)
+
+
+Time:2014/7/10 18:24:42-Compile assembly:DynamicScripts.CsScript error:
+File:d:\workspace\LDServer\scut_server_code\Server\Server\Script\CsScript\MainClass.cs, Line:31
+Message:未能找到类型或命名空间名称“Ltm”(是否缺少 using 指令或程序集引用?)
+
+
+Time:2014/7/10 18:30:36-Compile assembly:DynamicScripts.CsScript error:
+File:d:\workspace\LDServer\scut_server_code\Server\Server\Script\CsScript\Action\Action10001.cs, Line:10
+Message:未能找到类型或命名空间名称“Ltm”(是否缺少 using 指令或程序集引用?)
+
+
+Time:2014/7/10 18:35:49-Compile assembly:DynamicScripts.CsScript error:
+File:d:\workspace\LDServer\scut_server_code\Server\Server\Script\CsScript\Action\Action10001.cs, Line:10
+Message:未能找到类型或命名空间名称“Ltm”(是否缺少 using 指令或程序集引用?)
+
+
+Time:2014/7/10 18:38:12-Trace>>Server failed to start error:System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Ltm.Config.CfgManager.AddCfg(CFG_TYPE eType, String _fileName) 位置 d:\workspace\LDServer\scut_server_code\Server\Server\Script\CsScript\Config\CfgManager.cs:行号 33
+   在 Ltm.Config.CfgManager..ctor() 位置 d:\workspace\LDServer\scut_server_code\Server\Server\Script\CsScript\Config\CfgManager.cs:行号 23
+   在 Game.Script.MainClass..ctor() 位置 d:\workspace\LDServer\scut_server_code\Server\Server\Script\CsScript\MainClass.cs:行号 40
+   在 lambda_method(Closure , Object[] )
+   在 ZyGames.Framework.Common.Reflect.FastActivator.Create(Type type, Object[] args) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\Reflect\FastActivator.cs:行号 60
+   在 ZyGames.Framework.Common.ObjectExtend.CreateInstance(Type type, Object[] args) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\ObjectExtend.cs:行号 56
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.CreateInstance(String scriptCode, String typeName, Object[] args, Object& result) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 339
+   在 ZyGames.Framework.Script.CSharpRuntimeScope.Execute(String scriptCode, String typeName, Object[] args) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework\Script\CSharpRuntimeScope.cs:行号 109
+   在 ZyGames.Framework.Script.ScriptEngines.Execute(String scriptCode, String typeName, Object[] args) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 344
+   在 ZyGames.Framework.Script.ScriptEngines.RunMainProgram(String[] args) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework\Script\ScriptEngines.cs:行号 317
+   在 GameServer.Program.Main(String[] args) 位置 d:\workspace\LDServer\scut_server_code\Server\Middleware\GameServer\Program.cs:行号 58
+
+

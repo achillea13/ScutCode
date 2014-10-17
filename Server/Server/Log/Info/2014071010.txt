@@ -1,0 +1,3 @@
+Time:2014/7/10 10:47:20-CacheFactory listen has started...
+
+

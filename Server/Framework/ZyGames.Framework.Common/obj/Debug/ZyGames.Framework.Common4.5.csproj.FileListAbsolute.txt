@@ -1,0 +1,8 @@
+D:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\bin\Debug\ZyGames.Framework.Common.dll
+D:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\bin\Debug\ZyGames.Framework.Common.pdb
+D:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\bin\Debug\Mono.Cecil.dll
+D:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\bin\Debug\Newtonsoft.Json.dll
+D:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\bin\Debug\NLog.dll
+D:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\bin\Debug\protobuf-net.dll
+D:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\obj\Debug\ZyGames.Framework.Common.dll
+D:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\obj\Debug\ZyGames.Framework.Common.pdb

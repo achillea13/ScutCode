@@ -1,0 +1,4 @@
+D:\workspace\LDServer\scut_server_code\Server\Server.Pack\bin\Debug\Server.Pack.dll
+D:\workspace\LDServer\scut_server_code\Server\Server.Pack\bin\Debug\Server.Pack.pdb
+D:\workspace\LDServer\scut_server_code\Server\Server.Pack\obj\Debug\Server.Pack.dll
+D:\workspace\LDServer\scut_server_code\Server\Server.Pack\obj\Debug\Server.Pack.pdb

@@ -1,0 +1,36 @@
+Time:2014/7/10 13:23:58-Sql>>Error:MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'ltm.useraccount' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   在 MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(String connectionString, String commandText, MySqlParameter[] parms)
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.ExecuteQuery(CommandType commandType, String commandText, IDataParameter[] parameters) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 90
+   在 ZyGames.Framework.Data.SqlStatementManager.DoProcessSqlSyncQueue(String workingKey, Byte[][] bufferBytes) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 312
+Sql>>
+INSERT INTO `UserAccount`(`UserId`,`Password`,`UserName`)VALUES(?UserId,?Password,?UserName)
+ ON DUPLICATE KEY UPDATE `Password` = ?Password,`UserName` = ?UserName
+
+
+Time:2014/7/10 13:23:58-Sql>>Error:MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'ltm.useraccount' doesn't exist
+   在 MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   在 MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   在 MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   在 MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   在 MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   在 MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(MySqlConnection connection, String commandText, MySqlParameter[] commandParameters)
+   在 MySql.Data.MySqlClient.MySqlHelper.ExecuteNonQuery(String connectionString, String commandText, MySqlParameter[] parms)
+   在 ZyGames.Framework.Data.MySql.MySqlDataProvider.ExecuteQuery(CommandType commandType, String commandText, IDataParameter[] parameters) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework\Data\MySql\MySqlDataProvider.cs:行号 90
+   在 ZyGames.Framework.Data.SqlStatementManager.DoProcessSqlSyncQueue(String workingKey, Byte[][] bufferBytes) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework\Data\SqlStatementManager.cs:行号 312
+Sql>>
+INSERT INTO `UserAccount`(`UserId`,`Password`,`UserName`)VALUES(?UserId,?Password,?UserName)
+ ON DUPLICATE KEY UPDATE `Password` = ?Password,`UserName` = ?UserName
+
+

@@ -1,0 +1,14 @@
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\bin\ZyGames.Framework.Common.dll
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\bin\GameWebServer.dll.config
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\bin\GameWebServer.dll
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\bin\GameWebServer.pdb
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\bin\Microsoft.CSharp.dll
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\bin\ZyGames.Framework.dll
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\bin\ZyGames.Framework.Game.dll
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\bin\Mono.Cecil.dll
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\bin\ZyGames.Framework.Common.pdb
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\bin\ZyGames.Framework.pdb
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\bin\ZyGames.Framework.Game.pdb
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\obj\Debug\GameWebServer4.5.csprojResolveAssemblyReference.cache
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\obj\Debug\GameWebServer.dll
+D:\workspace\LDServer\scut_server_code\Server\Middleware\GameWebServer\obj\Debug\GameWebServer.pdb

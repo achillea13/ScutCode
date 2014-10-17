@@ -1,0 +1,19 @@
+Time:2014/7/10 16:20:34-Trace>>Action request GameServer.CsScript.Action.Action10001,GameServer.CsScript error:ProtoBuf.ProtoException: No wire-value is mapped to the enum Server.Pack.LoginError.0 at position 13
+   在 ProtoBuf.ProtoWriter.ThrowEnumException(ProtoWriter writer, Object enumValue)
+   在 ProtoBuf.Serializers.EnumSerializer.Write(Object value, ProtoWriter dest)
+   在 ProtoBuf.Serializers.TagDecorator.Write(Object value, ProtoWriter dest)
+   在 ProtoBuf.Serializers.PropertyDecorator.Write(Object value, ProtoWriter dest)
+   在 ProtoBuf.Serializers.TypeSerializer.Write(Object value, ProtoWriter dest)
+   在 ProtoBuf.Meta.RuntimeTypeModel.Serialize(Int32 key, Object value, ProtoWriter dest)
+   在 ProtoBuf.Meta.TypeModel.SerializeCore(ProtoWriter writer, Object value)
+   在 ProtoBuf.Meta.TypeModel.Serialize(Stream dest, Object value, SerializationContext context)
+   在 ProtoBuf.Meta.TypeModel.Serialize(Stream dest, Object value)
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.SerializeAutoGZip(Object obj, Boolean autoUseGzip) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\Serialization\ProtoBufUtils.cs:行号 158
+   在 ZyGames.Framework.Common.Serialization.ProtoBufUtils.Serialize(Object obj, Boolean autoUseGzip) 位置 d:\workspace\LDServer\scut_server_code\Server\Framework\ZyGames.Framework.Common\Serialization\ProtoBufUtils.cs:行号 112
+   在 GameServer.CsScript.Action.Action10001.BuildResponsePack() 位置 d:\workspace\LDServer\scut_server_code\Server\Server\Script\CsScript\Action\Action10001.cs:行号 43
+   在 GameServer.CsScript.Action.BaseAction.WriteResponse(BaseGameResponse response) 位置 d:\workspace\LDServer\scut_server_code\Server\Server\Script\CsScript\Action\BaseAction.cs:行号 65
+   在 ZyGames.Framework.Game.Contract.ActionFactory.Process(BaseStruct baseStruct, ActionGetter actionGetter, BaseGameResponse response, Func`2 userFactory) 位置 d:\workspace\LDServer\scut_server_code\Server\Middleware\ZyGames.Framework.Game\Contract\ActionFactory.cs:行号 260
+   在 ZyGames.Framework.Game.Contract.ActionFactory.Request(String typeName, ActionGetter actionGetter, BaseGameResponse response, Func`2 userFactory) 位置 d:\workspace\LDServer\scut_server_code\Server\Middleware\ZyGames.Framework.Game\Contract\ActionFactory.cs:行号 124
+param:MsgId=1&Sid=&Uid=0&St=&actionId=10001&UserName=Jon11&Password=100&sign=bc371ebc8c6b3dc24223a2501cba509c
+
+
